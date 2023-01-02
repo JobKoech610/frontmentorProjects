@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap'); 
+
+body{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 10px 0 30px 0;
+}
+
+img{
+    padding: 10px 0;
+}
+
+
+.container{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.sedan,.suvs,.luxury{
+    height: 350px;
+    width: 200px;
+    border: 1px solid black;
+    
+    text-align: left;
+    padding: 20px;
+    
+}
+
+button:hover{
+   color: hsl(0, 0%, 95%);
+}
+
+.btn-1,.btn-2,.btn-3{
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 120px;
+    border: 1px solid #fff;
+    
+    
+}
+
+.btn-1{
+    color:hsl(31, 77%, 52%);
+    
+}
+
+.btn-1:hover{
+    background-color:hsl(31, 77%, 52%);
+
+}
+
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-2:hover{
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.btn-3{
+    color: hsl(179, 100%, 13%);
+    
+}
+
+.btn-3:hover{
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+    
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+   
+
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+
+}
+
+.attribution {
+     font-size: 11px;
+     text-align: center;
+     margin-top: 50px;
+     }
+
+ .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+    .container{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+   
+    
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.container{
+    margin-top: 10%;
+    margin-left: 25%;
+    font-size: 15px;
+  
+}
+
+.sedan,.suvs,.luxury{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+}
+
+.btn-1,.btn-2,.btn-3{
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 120px;
+    
+}
+
+.btn-1{
+    color:hsl(31, 77%, 52%);
+    
+}
+
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3{
+    color: hsl(179, 100%, 13%);
+    
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    position: relative;
+    left: 10px;
+    
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    position: relative;
+    left: 5px;
+    top: 18px;
+
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    position: relative;
+
+}
+
+@media (min-width: 375px) {
+    .sedan,.suvs,.luxury{
+        height: 300px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: left;
+        padding: 10px;
+    }
+    
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
